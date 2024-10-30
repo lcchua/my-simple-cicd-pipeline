@@ -1,4 +1,5 @@
 # This is S3 TF creation
+# Added checkov checks
 
 resource "aws_s3_bucket" "example" {
     #checkov:skip=CKV2_AWS_62:No need for event notification
